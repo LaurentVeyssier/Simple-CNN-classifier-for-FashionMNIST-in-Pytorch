@@ -11,9 +11,9 @@ FashionMNIST is a well-known toy dataset made of 10 classes and 60k 28x28 graysc
 I used 2 convolutional layers and 2 fully connected layers.
 - the 2 Convolutional blocks are sequenced with CONV, ReLu activation, Maxpooling layers.
 - the 2 fully connected layers are sequenced with Linear, ReLu. A dropout step (0.2) is inserted between the two FC layers.
-- I did not include a softmax function in the network since this is combined in Pytorch with the 'nn.CrossEntropyLoss()' loss function function.
+- I did not include a softmax function in the network since this is combined in Pytorch with the `nn.CrossEntropyLoss()` loss function function.
 
-![](Digraph.gv.pdf)
+![](Net.PNG)
 note: PytorchViz vizualization tool available (here)[https://github.com/szagoruyko/pytorchviz]
 
 I used SGD optimizer with momentum to avoid local minimum. learning rate was 0.001.
