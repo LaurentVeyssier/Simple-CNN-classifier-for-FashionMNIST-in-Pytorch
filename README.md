@@ -17,7 +17,7 @@ I used 2 convolutional layers and 2 fully connected layers. The first Conv outpu
 note: PytorchViz vizualization tool available [here](https://github.com/szagoruyko/pytorchviz)
 
 I used SGD optimizer with momentum to avoid local minimum. learning rate was 0.001 and batch_size 50.
-I trained for 25 epochs reaching just below 90% accuracy. with 50 epochs i reached 90%. Training further continued to decrease the training loss bu the accuracy on unseen images (test set) remained at 90% which is a sign of overfitting.
+I trained for 25 epochs reaching just below 90% accuracy. with 50 epochs i reached 90%. Training further continued to decrease the training loss but the accuracy on unseen images (test set) remained at 90% which is a sign of overfitting.
 
 ## Results
 ![](accuracy.PNG)
