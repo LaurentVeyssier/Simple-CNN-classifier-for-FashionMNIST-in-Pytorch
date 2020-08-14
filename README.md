@@ -14,7 +14,7 @@ I used 2 convolutional layers and 2 fully connected layers.
 - I did not include a softmax function in the network since this is combined in Pytorch with the `nn.CrossEntropyLoss()` loss function function.
 
 ![](Net.PNG)
-note: PytorchViz vizualization tool available (here)[https://github.com/szagoruyko/pytorchviz]
+note: PytorchViz vizualization tool available [here](https://github.com/szagoruyko/pytorchviz)
 
 I used SGD optimizer with momentum to avoid local minimum. learning rate was 0.001.
 I trained for 25 epochs reaching just below 90% accuracy. with 50 epochs i reached 90%. Training further continued to decrease the training loss bu the accuracy on unseen images (test set) remained at 90% which is a sign of overfitting.
